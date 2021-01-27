@@ -5,7 +5,8 @@ L'intégration `ipx800` vous permet de contrôler et d'obtenir des informations 
 
 ## Installation
 
-Copier le dossier `custom_components/ipx800` dans `config/custom_components` de votre installation Home Assistant.
+Copier le dossier `custom_components/ipx800` dans `config` de votre installation Home Assistant.
+Redémarrer Home Assistant
 Ajouter l'entrée `ipx800` dans votre fichier `configuration.yml` (voir l'exemple ci-dessous).
 
 L'IPX800 doit être disponible pendant le démarrage d'Home Assistant.
