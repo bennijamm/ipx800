@@ -130,6 +130,10 @@ api_key:
   description: API key (need to be activate in Network => API)
   required: true
   type: string
+scan_interval:
+  description: intervalle en secondes d'interrogation de l'IPX (plus ce temps est court, plus l'interface de HASS est réactive) 
+  required: true
+  type: integer (min : 1)
 username:
   description: Username (for X-PWM control only)
   required: false
